@@ -9,4 +9,12 @@
  */
 'use strict';
 
-// TODO: écris ta solution ici.
+
+for (let i = 0; i < 3; i++){
+    let line = ''
+    for ( let j = 0; j < 3; j++){
+        line += '*'
+    }
+    console.log(line)
+
+}
