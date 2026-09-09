@@ -16,8 +16,7 @@
 // 2. Écris ta solution sous cette ligne.
 for (let i = 1; i <= 100; i++){
     console.log(i);
-    
-    if (i = 7) {
+    if (i == 7) {
         break; 
     }
 }
