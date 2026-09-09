@@ -23,7 +23,8 @@
 
 **Ma réponse :**
 
-> À compléter avec mes propres mots.
+ le boucle if est utiliser lorsqun the programmeur sais exactement combien de fois le code doit repeter.
+ le boucle while est utliser quond le nomber de repitition est inconnu.
 
 ---
 
@@ -35,7 +36,7 @@
 
 **Ma réponse :**
 
-> À compléter avec mes propres mots.
+le 2 boucles sont les meme MAIS "do...while" est exucuter le code au mois UNE seul fois.
 
 ---
 
@@ -43,11 +44,11 @@
 
 > Que se passe-t-il si vous oubliez d'incrémenter ou de modifier la condition d'arrêt dans une boucle `while` ? Comment appelle-t-on ce problème ?
 
-- [ ] J'ai recherché et compris la notion.
+- [X] J'ai recherché et compris la notion.
 
 **Ma réponse :**
 
-> À compléter avec mes propres mots.
+la boucle se n'arretera jamais. Le problem s'appele infinit loop (boucle infinie),
 
 ---
 
@@ -55,23 +56,22 @@
 
 > À quoi sert le mot-clé `break` à l'intérieur d'une boucle ?
 
-- [ ] J'ai recherché et compris la notion.
+- [x] J'ai recherché et compris la notion.
 
 **Ma réponse :**
 
-> À compléter avec mes propres mots.
-
+exiter le boucle immediatement, ou un conditions est vrai.
 ---
 
 ### Question 05
 
 > À quoi sert le mot-clé `continue` à l'intérieur d'une boucle ?
 
-- [ ] J'ai recherché et compris la notion.
+- [x] J'ai recherché et compris la notion.
 
 **Ma réponse :**
 
-> À compléter avec mes propres mots.
+exiter le boucle ignore le rest de code, ou un seul element si un conditions est vrai.
 
 ---
 
@@ -79,11 +79,11 @@
 
 > Dans la structure `for(initialisation; condition; incrémentation)`, dans quel ordre exact ces trois parties sont-elles exécutées ?
 
-- [ ] J'ai recherché et compris la notion.
+- [x] J'ai recherché et compris la notion.
 
 **Ma réponse :**
 
-> À compléter avec mes propres mots.
+1er doit initialiser un variable, 2eme est verifie si le conditions est vrai, et finalement incrimenter le variable decleree.
 
 ---
 
@@ -91,11 +91,15 @@
 
 > Est-il possible de déclarer la variable d'initialisation en dehors de la boucle `for` ?
 
-- [ ] J'ai recherché et compris la notion.
+- [x] J'ai recherché et compris la notion.
 
 **Ma réponse :**
 
-> À compléter avec mes propres mots.
+possible de declarer un viable dehors la boucle for, MAIS ild doit ecrire un point-virgule dans le boucle.
+
+ex:
+let i=0
+for (; i>5 ; i++)
 
 ---
 
@@ -103,11 +107,18 @@
 
 > Qu'est-ce qu'une boucle imbriquée (nested loop) et quand en avons-nous besoin ?
 
-- [ ] J'ai recherché et compris la notion.
+- [x] J'ai recherché et compris la notion.
 
 **Ma réponse :**
 
-> À compléter avec mes propres mots.
+un boucle imbriquee est boucle DANS un parent boucle. Est utiliser pour ecrirer des tableuax
+ex:
+for (i=0;i>5;i++){
+    for(j=0;i>5;i++){
+
+    }
+}
+    
 
 ---
 
@@ -115,11 +126,11 @@
 
 > Quel est le risque majeur en termes de performances lorsqu'on utilise de multiples boucles imbriquées ?
 
-- [ ] J'ai recherché et compris la notion.
+- [x] J'ai recherché et compris la notion.
 
 **Ma réponse :**
 
-> À compléter avec mes propres mots.
+complixité augment pour chaque boucle imbrique, va causer des lags ou faire planter le programme si les boucles imbriquées sont trop nombreuses
 
 ---
 
@@ -127,11 +138,11 @@
 
 > Peut-on utiliser un `switch` à l'intérieur d'une boucle ?
 
-- [ ] J'ai recherché et compris la notion.
+- [x] J'ai recherché et compris la notion.
 
 **Ma réponse :**
 
-> À compléter avec mes propres mots.
+Oui.
 
 
 ## ✅ Validation de la recherche
