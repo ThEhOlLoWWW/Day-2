@@ -16,5 +16,4 @@ for (let i = 0; i < 3; i++){
         line += '*'
     }
     console.log(line)
-
 }
