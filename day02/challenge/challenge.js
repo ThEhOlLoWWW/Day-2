@@ -21,4 +21,25 @@
 'use strict';
 
 // Découpe d'abord le problème en petites étapes.
-// TODO: écris ta solution ici.
+let codeSecret = 739;
+let x = 0;
+let done = false;
+
+for (let i = 0; i <= 9; i++) {
+    for (let j = 0; j <= 9; j++) {
+        for (let k = 0; k <= 9; k++) {
+            x++;
+            let code = (i * 100) + (j * 10) + k;
+            if ( codeSecret == code){
+
+                console.log(`Code trouvé : 739 après ${x} essais`);
+                done = true;
+                break;
+                
+            }
+        }
+        if (done) break
+    }
+    if (done) break
+    
+}
