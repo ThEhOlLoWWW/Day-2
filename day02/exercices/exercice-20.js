@@ -14,4 +14,18 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+
+for (let i = 100; i <= 999; i++){
+    let num = String(i);
+
+    let num1 = Number(num[0]);
+    let num2 = Number(num[1]);
+    let num3 = Number(num[2]);
+
+    let sum = (num1*num1*num1) + (num2*num2*num2) + (num3*num3*num3);
+
+    if (sum == i) {
+        console.log(i);
+        
+    }
+}
