@@ -9,4 +9,10 @@
  */
 'use strict';
 
-// TODO: écris ta solution ici.
+let N = 100;
+let i = 0;
+while (N > 1) {
+    N = N/2;
+    i++;
+}
+console.log(i);
